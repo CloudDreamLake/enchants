@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "enchants",
+  "version": "${version}",
+  "name": "enchants",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/enchants/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "world.cdl.enchants.client.EnchantsClient"
+    ],
+    "main": [
+      "world.cdl.enchants.Enchants"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
